@@ -14,11 +14,6 @@ tools="/var/lib/openqa/tests/os-autoinst-distri-opensuse/os-autoinst/"
 declare -A directories=( ["tests"]="$tests" ["suse_needles"]="$suse_needles" ["opensuse_needles"]="$opensuse_needles" ["tools"]="$tools")
 
 
-
-# update openQA packages
-echo -e "\n--------Updating the openQA packages--------\n"
-zypper -n up --allow-vendor-change openQA
-
 # update the repositories
 for repo in ${repos[*]}
 do
