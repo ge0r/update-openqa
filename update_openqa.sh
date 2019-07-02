@@ -1,7 +1,7 @@
 #! /bin/bash
 
-KEY="79B320AAF5E9EFFD"
-SECRET="A4EF9D6C5122571D"
+KEY="1234567890ABCDEF"
+SECRET="1234567890ABCDEF"
 
 repos=("tests" "suse_needles" "opensuse_needles" "tools")
 
