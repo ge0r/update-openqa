@@ -44,9 +44,9 @@ do
 done
 
 # update the templates
-echo -e "\n--------Updating the templates (this will take a while...)--------\n"
-/usr/share/openqa/script/dump_templates --host openqa.suse.de --apikey $KEY --apisecret $SECRET > ~/templates
-/usr/share/openqa/script/load_templates --host "localhost" ~/templates --clean
+# echo -e "\n--------Updating the templates (this will take a while...)--------\n"
+# /usr/share/openqa/script/dump_templates --host openqa.suse.de --apikey $KEY --apisecret $SECRET > ~/templates
+# /usr/share/openqa/script/load_templates --host "localhost" ~/templates --clean
 
 
 echo -e "\n--------openQA components updated successfully!!!--------\n"
