@@ -3,6 +3,8 @@
 KEY="1234567890ABCDEF"
 SECRET="1234567890ABCDEF"
 
+echo "DO NOT MERGE"
+
 repos=("tests" "suse_needles" "opensuse_needles" "tools")
 
 tests="/var/lib/openqa/share/tests/os-autoinst-distri-opensuse"
